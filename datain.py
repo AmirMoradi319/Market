@@ -40,5 +40,6 @@ class Database :
         self.cur.execute('select * from market where name = ? ' , (name,) )
         row = self.cur.fetchone()
         return row
+print('* * * * ')
     
     

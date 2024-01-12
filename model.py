@@ -149,5 +149,5 @@ list_box.place(x=30 , y=130)
 
 list_box.bind('<<ListboxSelect>>' , select_item)
 
-
+print('====')
 amir.mainloop()
